@@ -1,0 +1,33 @@
+Study of Collections
+1.Counter
+A Counter is a container that keeps track of how many times equivalent values are added.
+Initial ways: 1. collections.Counter(['a', 'a', 'b', 'c'])
+	  		  2. collections.Counter({'a': 2, 'b' : 3, 'c': 1})
+	          3. c = collections.Counter() => c.update('abcdstsfd') / c.update({'a':2, 'd': 3})
+functions: 1. .update(): input can be dict or list
+           2. .elements(): iterator
+           3. .most_common(n):
+others: 1. Arithmetic: + - & |
+2.defaultdict
+defaultdict lets the caller specify the default up front when the container is initialized
+Initial ways: 1. collections.defaultdict(list)
+              2. collections.defaultdict(dict)
+              3. collections.defaultdict(set)
+3.OrderedDict
+An OrderedDict is a dictionary subclass that remembers the order in which its contents are added.
+Initial ways: 1. c = collections.OrderedDict()
+4.Deque
+A double-ended queue, supports adding and removing elements from either end.
+Initial ways: 1. collections.deque('abcdsdsfa')
+              2. d = collections.deque(maxlen=size)
+              3. d = collections.deque()
+functions: 1. .append(x)
+           2. .appendleft(x)
+           3. .clear()
+           4. .extend()
+           5. .extendleft()
+           6. .insert(i, x) insert x into the deque at postion i
+           7. .pop()
+           8. .popleft()
+           9. .reverse() reverse the elements of the deque in-place and then return None
+           10. .rotate(n=1) rotate to the left if n is negative.

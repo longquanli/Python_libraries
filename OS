@@ -1,0 +1,9 @@
+Study of os
+The module provides a portable way of using operating system dependent functionality.
+
+functions: 1. os.path.abspath(path): return an absolutized pathname
+			     ex: /home/charles/Documents/leetcode/src/leetcode
+		       2. os.path.basename(path): return base name of pathname path.
+		       ex: leetcode
+		       3. os.path.dirname(path)
+		       4. os.path.join(path, paths)

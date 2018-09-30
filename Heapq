@@ -1,0 +1,9 @@
+Study of heapq
+The module provides an implementation of the heap queue algorithm.
+Initial ways: 1. a = []
+functions: 1. heapq.heappush(a, item) O(lgn)
+           2. heapq.heappop(a) O(lgn)
+           3. heapq.heappushpop(a, item) O(lgn)
+           4. heapq.heapify(a) O(n)
+           5. heapq.nlargest(k, a, key=None) O(klgn)
+           6. heapq.nsmallest(k, a, key=None) O(klgn)

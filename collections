@@ -2,8 +2,8 @@ Study of Collections
 1.Counter
 A Counter is a container that keeps track of how many times equivalent values are added.
 Initial ways: 1. collections.Counter(['a', 'a', 'b', 'c'])
-	  		  2. collections.Counter({'a': 2, 'b' : 3, 'c': 1})
-	          3. c = collections.Counter() => c.update('abcdstsfd') / c.update({'a':2, 'd': 3})
+	      2. collections.Counter({'a': 2, 'b' : 3, 'c': 1})
+	      3. c = collections.Counter() => c.update('abcdstsfd') / c.update({'a':2, 'd': 3})
 functions: 1. .update(): input can be dict or list
            2. .elements(): iterator
            3. .most_common(n):
